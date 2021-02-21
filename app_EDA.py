@@ -8,7 +8,9 @@ import data_func as dfun
 from sklearn.preprocessing import LabelEncoder
 
 
-st.title("APP")
+st.title("Data Analysis App by Tanmaya Kumar Sahni")
+st.write("Github: https://github.com/tanmaya48/Streamlit_herokuapp")
+st.write("   ")
 
 st.write("This is a demo file, you can use any other csv on the web")
 path = st.text_input('file name',value = "titanic.csv")
