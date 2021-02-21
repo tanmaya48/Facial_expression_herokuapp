@@ -10,8 +10,8 @@ from sklearn.preprocessing import LabelEncoder
 
 st.title("APP")
 
-
-path = st.text_input('file name')
+st.write("This is a demo file, you can use any other csv on the web")
+path = st.text_input('file name',value = "titanic.csv")
 
 
 
